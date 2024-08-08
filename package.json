@@ -1,0 +1,25 @@
+  {
+  "name": "api_psico_app",
+  "version": "1.0.0",
+  "description": "API para la aplicación de psicología",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js", 
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mssql": "^10.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.7",
+    "tedious": "^18.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
